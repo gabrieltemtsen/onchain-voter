@@ -47,7 +47,7 @@ const ProposalsList = () => {
 
             return (
               <div key={proposal._id} className="relative pl-5 pr-7">
-                <div className="absolute  top-0 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center">
+                <div className="absolute  top-0 left-1/2 transform -translate-x-1/2 bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center">
                   {index + 1}
                 </div>
                 <div className="ml-8">

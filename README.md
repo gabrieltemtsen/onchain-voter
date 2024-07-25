@@ -1,29 +1,23 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
+# Onchain Voter
 
-## Getting Started
+Onchain Voter is a (DApp) that enables users to create and vote on proposals on the Ethereum Layer 2 Optimism network. Leveraging the power of blockchain technology, Onchain Voter ensures transparent and immutable voting processes.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-```
+- **Proposal Creation:** Users can propose ideas and initiatives on the Optimism network.
+- **Voting:** Cast votes on active proposals securely and transparently.
+- **Real-Time Data:** Real-time tracking of proposal creation and voting events, integrated with a detailed dashboard.
+- **User-Friendly Interface:** Built with modern web technologies for a seamless user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Check out the live application: [Onchain Voter](https://onchain-voter-xyz.vercel.app/)
+- Checkout the Indexer: [Onchain Voter Indexer](https://github.com/gabrieltemtsen/onchain-voter-indexer)
+- Big thanks to: [Polynomial-Protocol](https://github.com/Polynomial-Protocol)
 
-## Learn More
+## Prerequisites
 
-To learn more about this stack, take a look at the following resources:
+- **Node.js**: Ensure you have Node.js installed for development.
+- **Alchemy API Key**: Required for accessing the Optimism network.
+- **MongoDB**: A MongoDB instance to store and query the indexed data.
 
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

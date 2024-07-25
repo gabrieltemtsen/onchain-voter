@@ -9,14 +9,10 @@ import {
 } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'Onchain Voter',
+  projectId: '0fcda49e9f4acad4b84401373fbc5a4f',
   chains: [
-    mainnet,
-    polygon,
     optimism,
-    arbitrum,
-    base,
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [sepolia] : []),
   ],
   ssr: true,

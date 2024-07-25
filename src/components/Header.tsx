@@ -14,6 +14,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link href="/dashboard">
+                <span className="hover:underline">Dashboard</span>
+              </Link>
+            </li>
+            <li>
               <Link href="/create">
                 <span className="hover:underline">Create Proposal</span>
               </Link>

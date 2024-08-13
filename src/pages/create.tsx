@@ -54,7 +54,7 @@ const CreateProposal = () => {
         />
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 rounded-lg shadow-md hover:bg-blue-600 focus:outline-none"
+          className="w-full bg-black text-white py-2 rounded-lg shadow-md hover:bg-blue-600 focus:outline-none"
           disabled={isLoading}
         >
           {isLoading ? <Spinner /> : 'Create'}

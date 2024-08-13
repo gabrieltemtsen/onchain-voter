@@ -45,7 +45,7 @@ console.log(proposals)
   }, [totalProposals]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
+    <div className="flex flex-col items-center rounded-lg shadow-lg justify-center min-h-screen py-2 bg-gray-100">
       <ProposalsList />
       <h1 className="text-4xl font-bold mb-8">Proposals</h1>
       <div className="w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

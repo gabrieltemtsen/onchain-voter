@@ -38,7 +38,7 @@ const ProposalsList = () => {
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold mb-8 text-center">Proposals Timeline</h2>
       <div className="relative">
-        <div className="border-l-4 border-blue-500 absolute h-full top-0 left-4 md:left-1/2 transform md:-translate-x-1/2"></div>
+        <div className="border-l-4 border-black absolute h-full top-0 left-4 md:left-1/2 transform md:-translate-x-1/2"></div>
         <div className="space-y-8">
           {proposals.map((proposal, index) => {
             const proposalId = proposal.args.find(arg => arg.key === 'proposalId')?.value._hex;

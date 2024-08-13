@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Spinner from '../components/Spinner';
 
 const Dashboard = () => {
   const [eventStats, setEventStats] = useState<any>({
@@ -25,15 +26,13 @@ const Dashboard = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <p>Loading...</p>
-      </div>
+      <Spinner />
     );
   }
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8 text-center">Dashboard</h1>
+      <h1 className="text-4xl font-bold mb-8 text-white text-center">Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
           <h2 className="text-2xl font-bold">Total Events</h2>

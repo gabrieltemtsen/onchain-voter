@@ -39,13 +39,13 @@ const Proposal = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
+    <div className="flex flex-col items-center justify-center rounded-lg min-h-screen py-2 bg-gray-100">
       {proposal && (
         <>
           <h1 className="text-4xl font-bold mb-4">{proposal[0]}</h1>
           <p className="text-xl mb-4">Votes: {Number(proposal[1])}</p>
           <button
-            className="bg-blue-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 focus:outline-none"
+            className="bg-black text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-600 focus:outline-none"
             onClick={handleVote}
           >
             Vote

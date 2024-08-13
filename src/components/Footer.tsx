@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto text-center space-y-2">
         <p>&copy; 2024 Onchain Voter. All rights reserved.</p>
         <p>
-          <a href="https://farcaster.xyz" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="https://warpcast.com/gabrieltemtsen" target="_blank" rel="noopener noreferrer" className="hover:underline">
             Follow us on Farcaster
           </a>
         </p>
